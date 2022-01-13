@@ -1,0 +1,31 @@
+{
+  "name": "ordenes",
+  "version": "1.0.0",
+  "description": "Aplicacion para administrar ordenes de manera facil y sencillla",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "extends": "./config/electron-builder.json",
+    "mac": {
+      "icon": "oneselect.ico"
+    },
+    "win": {
+      "icon": "oneselect.ico"
+    },
+    "linux": {
+      "icon": "oneselect.ico"
+    }
+  },
+  "author": "Aldo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "git": "^0.1.5",
+    "nedb": "^1.8.0"
+  }
+}
